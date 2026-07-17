@@ -1,0 +1,63 @@
+# Data files
+*.RData
+*.rds
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.mtx.gz
+
+# Output directories
+output/
+M*_output/
+figures/
+figures_*/
+results/
+*.pdf
+*.png
+*.jpg
+*.tiff
+*.svg
+
+# Manuscript and writing (NOT for public repo)
+*.docx
+*.doc
+*.pdf
+manuscript/
+writing/
+*brief*
+*manuscript*
+*manus*
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large files (>10MB)
+*.gz
+*.zip
+*.tar
